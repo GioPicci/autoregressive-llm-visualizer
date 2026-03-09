@@ -5,13 +5,23 @@ An interactive web application built with **Streamlit** to explore "under the ho
 This project is educational: it allows step-by-step visualization of what happens inside the model during text generation, from the initial prompt to the selection of the next word.
 
 ## Features (The 5 Phases)
+![image](fig/input.png)
 
 The interface guides the user through key LLM concepts:  
-1. **Tokenization:** Visualizes how text is split into subwords and converted into numerical IDs.  
-2. **Embeddings:** Interactive 3D projection of token vectors and raw data visualization.  
-3. **Self-Attention:** Heatmaps to explore how tokens communicate with each other, navigable by *Layer* and *Head*.  
-4. **Probabilities and Sampling:** Dynamic bar chart of the next word probabilities. Allows experimentation with parameters such as *Temperature* and *Top-P*.  
+1. **Tokenization:** Visualizes how text is split into subwords and converted into numerical IDs.
+![image](fig/tokenization.png)
+
+2. **Embeddings:** Interactive 3D projection of token vectors and raw data visualization.
+![image](fig/embedding.png)
+
+3. **Self-Attention:** Heatmaps to explore how tokens communicate with each other, navigable by *Layer* and *Head*.
+![image](fig/attention.png)
+
+4. **Probabilities and Sampling:** Dynamic bar chart of the next word probabilities. Allows experimentation with parameters such as *Temperature* and *Top-P*.
+![image](fig/probs.png)
+
 5. **Iterative Generation:** Step-by-step token generation or "Autopilot" mode to complete sentences automatically.
+![image](fig/generation.png)
 
 ## Technologies Used
 * **Language:** Python 3.10  
