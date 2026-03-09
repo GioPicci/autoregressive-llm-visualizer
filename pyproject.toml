@@ -1,0 +1,8 @@
+[project]
+name = "Autoregressive LLM Demo"
+version = "0.1.0"
+description = "Simple demo showing how autoregressive models like GPT-2 process and generate text."
+requires-python = ">=3.10"
+dependencies = [
+    "streamlit==1.55.0",
+]
